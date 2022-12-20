@@ -1,4 +1,5 @@
 
+/* Login */
 
 describe('login customer', () => {
   it('passes', () => {
@@ -43,6 +44,8 @@ describe('login with invalid data', () => {
     cy.get('form > .btn').click();
   })
 })
+
+/* Order */
 
 describe('order add item', () => {
   it('passes', () => {
@@ -95,6 +98,8 @@ describe('order add devliery address', () => {
     cy.get(':nth-child(6) > :nth-child(2) > .btn').click();
   })
 })
+
+/* Checkout */
 
 describe('checkout', () => {
   it('passes', () => {
